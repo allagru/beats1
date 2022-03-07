@@ -2,6 +2,11 @@
     display: flex;
     cursor: pointer;
     user-select: none;
+    margin-bottom: 20px;
+
+    &__title {
+        padding: 0px 10px;
+    }
 
     &--checkbox {
         .radio__visible {
@@ -11,6 +16,8 @@
                 background: url(../../img/checkmark.png) center center no-repeat;
             }
         }
+
+        margin-bottom: 40px;
     }
 
     &__elem {
