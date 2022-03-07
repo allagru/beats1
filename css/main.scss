@@ -1,0 +1,34 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+$gray: #666666;
+$red: #E01F3D;
+$darkred: #CA1B36;   
+$black: #292929;
+$white: #fff;
+$light-gray: #F5F5F5;
+
+$z-fixed-menu: 100;
+
+@import url(./blocks/normalize.css);
+
+@import './blocks/_base.scss';
+@import './blocks/_hero.scss';
+@import './blocks/_header.scss';
+@import './blocks/_features.scss';
+@import './blocks/_feature.scss';
+@import './blocks/_btn.scss';
+@import './blocks/_section.scss';
+@import './blocks/_headline.scss';
+@import './blocks/_benefits.scss';
+@import './blocks/_benefit.scss';
+@import './blocks/_benefits-section.scss';
+@import './blocks/_reviews.scss';
+@import './blocks/_interactive-avatar.scss';
+@import './blocks/_reviews-section.scss';
+@import './blocks/_order-section.scss';
+@import './blocks/_form.scss';
+@import './blocks/_radio.scss';
+@import './blocks/_map-section.scss';
+@import './blocks/_footer.scss';
+@import './blocks/_fixed-menu.scss';
