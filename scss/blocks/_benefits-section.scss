@@ -3,7 +3,7 @@
 
     &::before {
         position: absolute;
-        bottom: rem(-25px);
+        bottom: -25px;
         left: 18%;
         content: url(/beats/img/triangle.png);
     }

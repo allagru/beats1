@@ -2,10 +2,10 @@
     display: flex;
     cursor: pointer;
     user-select: none;
-    margin-bottom: rem(20px);
+    margin-bottom: 20px;
 
     &__title {
-        padding: rem(0px) rem(10px);
+        padding: 0px 10px;
     }
 
     &--checkbox {
@@ -17,7 +17,7 @@
             }
         }
 
-        margin-bottom: rem(40px);
+        margin-bottom: 40px;
     }
 
     &__elem {
@@ -31,16 +31,16 @@
     }
 
     &__visible {
-        width: rem(25px);
-        height: rem(25px);
+        width: 25px;
+        height: 25px;
         position: relative;
         border-radius: 50%;
         background: $white;
 
         &::before {
             content: "";
-            width: rem(13px);
-            height: rem(13px);
+            width: 13px;
+            height: 13px;
             background: $red;
             border-radius: 50%;
             position: absolute;

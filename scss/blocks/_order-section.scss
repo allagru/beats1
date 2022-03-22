@@ -4,16 +4,8 @@
 
     &::before {
         position: absolute;
-        top: rem(-25px);
+        top: -25px;
         right: 19%;
         content: url(/beats/img/Polygon.png);
-    }
-
-    @include tablets {
-        padding: 5% 0;
-    }
-
-    @include phones {
-        padding: 10% 0;
     }
 }

@@ -1,27 +1,15 @@
 .section {
     height: 100vh;
-    min-height: rem(650px);
+    min-height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    @include tablets {
-        height: 100%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-
     &__title {
-        font-size: rem(48px);
+        font-size: 48px;
         font-weight: bold;
-        margin-bottom: rem(53px);
+        margin-bottom: 53px;
         text-align: center;
         text-transform: uppercase;
-
-        &--order {
-            @include phones {
-                font-size: rem(32px);
-            }
-        }
     }
 }

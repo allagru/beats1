@@ -2,9 +2,8 @@
     display: flex;
 
     &__item {
-        margin-right: rem(13px);
-        align-items: center;
-        
+        margin-right: 13px;
+
         &:last-child {
             margin-right: 0;
         }
