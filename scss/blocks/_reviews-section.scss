@@ -3,12 +3,16 @@
 
     &::before {
         position: absolute;
-        bottom: -25px;
+        bottom: rem(-25px);
         left: 19%;
         content: url(/beats/img/round.png);
     }
-}
 
-.reviews-section__title {
-    margin-bottom: 30px;
+    &__title {
+        margin-bottom: rem(30px);
+
+        @include phones {
+            font-size: rem(32px);
+        }
+    }
 }

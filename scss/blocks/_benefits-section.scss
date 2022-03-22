@@ -3,8 +3,14 @@
 
     &::before {
         position: absolute;
-        bottom: -25px;
+        bottom: rem(-25px);
         left: 18%;
         content: url(/beats/img/triangle.png);
+    }
+
+    &__container {
+        @include tablets{
+            width: 99%;      
+        }
     }
 }

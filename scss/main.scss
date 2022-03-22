@@ -1,5 +1,9 @@
 $containerWidth: 940px;
-$baseFontSize: 18px;
+$baseFontSize: 16px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
 
 $gray: #666666;
 $red: #E01F3D;
@@ -9,7 +13,7 @@ $white: #fff;
 $light-gray: #F5F5F5;
 
 $z-fixed-menu: 100;
-
+@import '../scss/blocks/_media.scss';
 @import url(/beats/css/normalize.css);
 
 @import '../scss/blocks/_base.scss';
@@ -32,3 +36,5 @@ $z-fixed-menu: 100;
 @import '../scss/blocks/_map-section.scss';
 @import '../scss/blocks/_footer.scss';
 @import '../scss/blocks/_fixed-menu.scss';
+@import '../scss/blocks/_burger.scss';
+
