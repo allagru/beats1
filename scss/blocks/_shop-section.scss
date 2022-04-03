@@ -33,11 +33,11 @@
     position: relative;
     top: 50%;
     @include tablets {
-        top: 15%;
-        right: 5%;
+        top: 23%;
+        // right: 5%;
     }
     @include phones {
-        top: 15%;
+        top: 21%;
     }
 }
 
@@ -50,21 +50,21 @@
         transform: rotate(180deg);
 
         @include tablets {
-            right: 0%;
+            right: 17%;
         }
        
         @include phones {
-            right: -7%;
+            right: -2%;
         }
     }
     &_left{
         left:rem(-50px);
         // transform: rotate(135deg);
         @include tablets {
-            left: 10%;
+            left: 18%;
         }       
         @include phones {
-            left: 2%;
+            left: -2%;
         }
     }
 }
@@ -87,6 +87,7 @@
             width: rem(306px);
             height: rem(306px);
             margin: 0 auto;
+            margin-bottom: 49px;
         }
         @include phones {
             width: rem(306px);
@@ -145,11 +146,13 @@
             font-size: rem(28px);
             max-width: 100%;
             text-align: center;
+            margin-bottom: 10px;
         }
         @include phones {
             font-size: 28px;
             line-height: 32px;
             margin-bottom: rem(15px);
+            max-width: 72%;
         }
     }
 
@@ -158,6 +161,18 @@
 
         @include tablets{
             padding-right: 0;
+            max-width: rem(620px);
+        }
+        @include phones {
+            max-width: rem(400px);
+        }
+    }
+
+    
+    &__row{
+        margin: rem(27px) 0 rem(27px) 0;
+        @include phones {
+            margin: rem(15px) 0;
         }
     }
 
@@ -171,21 +186,20 @@
             text-align: left;
             padding: 0 30%;
             width: 100%;
+            margin: rem(27px) 0 rem(20px) 0;
         }
         @include phones{
             padding: 0 11% 0 22%;
         }
     }
-    &__row{
-        margin: rem(27px) 0 rem(27px) 0;
-        @include phones {
-            margin: rem(15px) 0;
-        }
-    }
+
     &__purchase{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        @include tablets {
+            margin: 0;
+        }
     }
 
     &__price{
@@ -197,15 +211,24 @@
         margin-right: rem(13px);
         @include tablets {
             font-size: 40px;
+            margin-right: rem(40px);
         }
         @include phones {
             font-size: 32px;
+            margin-left: rem(5px);
+            margin-right: rem(20px);
         }
     }
 }
 
 .description{
-    width: 50%;   
+    width: 50%; 
+    @include tablets{
+        margin-left: rem(20px);
+    }  
+    @include phones {
+        margin-left: 0;
+    }
 }
 
 .description__title{
