@@ -11,15 +11,31 @@
     }
 }
 
+.shop-container{
+    .bx-wrapper {
+        border: 0;
+        background: #F8FAF9;
+        box-shadow: none;
+        margin-bottom: 0;
+        @include tablets {
+            .bx-viewport {
+                height: 615px;
+            }
+        }
+        
+    }
+}
+
+
 
 .shop-section{
 
     @include tablets{
-        padding-top: 10%;
+        padding-top: 3%;
     }
 
     @include phones{
-        padding-top: 15%;
+        padding-top: 5%;
     }
 }
 

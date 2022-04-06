@@ -30,13 +30,33 @@
             }
     }
 
-    &__display-inner {
+    &__display-inner, .reviews__item {
         display: flex;
 
         @include tablets {
             flex-direction: column;
             text-align: center;
             align-items: center;
+        }
+    }
+
+    &__list{
+        min-height: rem(200px);
+    }
+
+    &__item{
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        // transition: opacity .3s;
+        &.active {
+            position: static;
+            opacity: 1;
+            transition: opacity .5s;
+
         }
     }
 
