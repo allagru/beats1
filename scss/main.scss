@@ -1,6 +1,7 @@
 $containerWidth: 940px;
 $baseFontSize: 16px;
 
+
 //breakpoints
 $tablets: 768px;
 $phones: 480px;
@@ -41,3 +42,5 @@ $z-fixed-menu: 100;
 @import '../scss/blocks/_hide-menu.scss';
 @import '../scss/blocks/_team.scss';
 @import '../scss/blocks/_modal.scss';
+@import '../scss/blocks/_video.scss';
+@import '../scss/blocks/_menu-acco.scss';

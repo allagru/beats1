@@ -53,3 +53,13 @@
         }
     }
 }
+
+.fixed-menu--light {
+    color: #fff;
+  }
+
+  .fixed-menu__link--light {
+      &:before {
+        background: #fff;
+      }
+    }
